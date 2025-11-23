@@ -26,8 +26,8 @@ class Square:
     
     def my_print(self):
         s = ""
-        if size == 0:
+        if self.__size == 0:
             print()
-        for i in range(self.size):
+        for i in range(self.__size):
             s += '#'
             return s
