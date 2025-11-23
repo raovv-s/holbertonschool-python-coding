@@ -29,6 +29,7 @@ class Square:
         s = ""
         if self.__size == 0:
             print()
+            return
         for i in range(self.__size):
-            s += '#'
-    return s
+            print("#" * self.__size)
+
