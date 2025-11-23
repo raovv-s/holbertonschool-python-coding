@@ -30,4 +30,4 @@ class Square:
             print()
         for i in range(self.__size):
             s += '#'
-            return s
+    return s
