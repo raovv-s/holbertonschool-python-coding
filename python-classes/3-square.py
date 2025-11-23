@@ -6,10 +6,12 @@ class Square:
     """ using raise in init """
     def __init__(self, size=0):
         self.size = size
+
     @property
     def size(self):
         """Retrieve size"""
         return self.__size
+
     @size.setter
     def size(self, value):
         """Set size with validation"""
