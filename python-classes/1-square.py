@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Square Module """
 
+
 class Square:
     """ using raise in init """
     def __init__(self, size=0):
